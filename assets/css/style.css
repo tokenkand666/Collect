@@ -844,6 +844,8 @@ ul { margin: 0; padding: 0; list-style: none; }
   gap: clamp(20px, 2.6vw, 28px);
 }
 
+.solo { display: grid; max-width: 760px; }
+
 .check-list {
   display: flex;
   flex-direction: column;
