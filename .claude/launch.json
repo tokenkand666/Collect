@@ -2,10 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "collect-site",
-      "runtimeExecutable": "npx",
-      "runtimeArgs": ["--yes", "serve", "--listen", "4321", "."],
-      "port": 4321
+      "name": "site",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8123"],
+      "port": 8123
     }
   ]
 }
